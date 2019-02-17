@@ -9,6 +9,8 @@ mesg-core service deploy https://github.com/eisenbergrobin/mesg-lighthouse
 Request a lighthouse audit of your website by calling the `runLighthouseAudit` with yourr `url` as input.
 This will launch a Chrome instance, perform the audit, and return the raw results as well as a pretty HTML report.
 
+![lighthouse-report](https://raw.githubusercontent.com/GoogleChrome/lighthouse/443ff2c8a297dfd2297dfaca86c4966a87c8574a/assets/example_audit.png)
+
 # Contributing
 
 ## TODO:

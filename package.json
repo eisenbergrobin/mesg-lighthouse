@@ -1,0 +1,12 @@
+{
+  "name": "mesg-lighthouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "lighthouse": "^4.1.0",
+    "mesg-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "1.16.4"
+  }
+}

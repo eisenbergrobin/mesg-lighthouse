@@ -1,0 +1,26 @@
+name: mesg-lighthouse
+sid: mesg-lighthouse
+description: "Allows for executing of Lighthouse audits through MESG"
+tasks:
+  runLighthouseAudit:
+    inputs:
+      url:
+        type: String
+    outputs:
+      success:
+        description: "Callback called with results of the audit."
+        data: {}
+
+events:
+  started:
+    data:
+      success:
+        type: Boolean
+  audit-start:
+    data:
+      target:
+        type: String
+  audit-end:
+    data:
+      target:
+        type: String
